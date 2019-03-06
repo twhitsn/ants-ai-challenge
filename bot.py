@@ -5,7 +5,7 @@ written by: Tim Whitson
 Influence
 ---------
 
-This bot uses an influence map. Each item of interest (food, hill, etc.)
+This bot uses an influence/heat map. Each item of interest (food, hill, etc.)
 creats influence, which propagates over the map. Some tiles will have
 negative influence, such as impassable tiles and tiles with large
 enemy influence.
@@ -29,7 +29,7 @@ Combat
 ------
 
 This bot's combat is not sophisticated. It looks for enemy/ally influence
-and tries to avoid any particular bad situation. It also will sometimes
+and tries to avoid any particularly bad situation. It also will sometimes
 capitalize on enemy weaknesses.
 
 
@@ -37,7 +37,7 @@ Waves
 -----
 
 Once enough ants are present, a large influencer (wave) is generated that
-moves toward the enemy spawn. The idea is to collec the ants and move them
+moves toward the enemy spawn. The idea is to collect the ants and move them
 in a cohesive unit toward the enemy hill. Momentum is also important as 
 ants in motion are less likely to be killed and can explore/pick up food.
 """
